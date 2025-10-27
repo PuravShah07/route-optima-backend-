@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Uploaded user data
+uploads/
+
+# OS-specific files
+.DS_Store
+Thumbs.db

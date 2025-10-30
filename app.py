@@ -53,6 +53,10 @@ def upload_csv():
     except Exception as e:
         # Return the exception string for debugging (consider hiding in production)
         return jsonify({'error': str(e)}), 500
+    
+
+
+
 
 if __name__ == '__main__':
     # Listen on all interfaces for frontend backend communication
